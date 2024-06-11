@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Alura Books</title>
 </head>
+
+
 <body>
     <header class="cabeçalho">
         <div class="container">
-            <input type="checkbox" name="" id="menu" class="container_botao">
+            <input type="checkbox" name="" id="menu" class="container__botao">
             <label for="menu">
          <span class="cabeçalho__menu-hamburguer container__imagem"></span>
         </label>
         <ul class="lista-menu" >
-           <li class="lista-menu_titulo">Categoria</li>
-           <li class="lista-menu_item"><a href="#"
-           class="lista-menu_link">Programação</a></li>
-           <li class="lista-menu_item"><a href="#"
-           class="lista-menu_link">Front-end</a></li>
-           <li class="lista-menu_item"><a href="#"
-           class="lista-menu_link">Infraestrutura</a></li>
-           <li class="lista-menu_item"><a href="#"
-           class="lista-menu_link">Bussinss</a></li>
-           <li class="lista-menu_item"><a href="#"
-           class="lista-menu_link">Desing & UX</a></li>    
+           <li class="lista-menu__titulo">Categoria</li>
+           <li class="lista-menu__item"><a href="#"
+           class="lista-menu__link">Programação</a></li>
+           <li class="lista-menu__item"><a href="#"
+           class="lista-menu__link">Front-end</a></li>
+           <li class="lista-menu__item"><a href="#"
+           class="lista-menu__link">Infra-estrutura</a></li>
+           <li class="lista-menu__item"><a href="#"
+           class="lista-menu__link">Bussiness</a></li>
+           <li class="lista-menu__item"><a href="#"
+           class="lista-menu__link">Desing & UX</a></li>    
         </ul>
          <img src="img/Logo.svg" alt="logo alurabooks" class="container__imagem">
         </div>
@@ -36,6 +42,11 @@
          <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
         </div>
     </header>
-</body>
 
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+        <p class="banner__texto">Encontre em nosa estante o que precisa para seu desenvolvimento</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+    </section>
+</body>
 </html>
